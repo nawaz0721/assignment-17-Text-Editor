@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: radial-gradient( circle at top right, #016CB4, black 7%, transparent 40% ), radial-gradient( circle at bottom left, #016CB4, BLACK 20%, transparent 40% );
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+textarea {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    resize: none;
+}
+
+.action_btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.action_btn:hover {
+    background-color: #0056b3;
+}
+
+select, input[type="color"] {
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+select:hover, input[type="color"]:hover {
+    border-color: #007bff;
+}
+
+label {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer h4 {
+    margin: 0;
+}
